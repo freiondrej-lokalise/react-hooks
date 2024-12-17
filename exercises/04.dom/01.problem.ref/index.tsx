@@ -20,7 +20,7 @@ function Tilt({ children }: { children: React.ReactNode }) {
 			className="tilt-root"
 			// 🐨 add a ref callback here
 			// the callback should accept a tiltNode parameter (🦺 typed as an
-			// HTMLVanillaTiltElement) and then:
+			// HTMLVanillaTiltElement | null) and then:
 			// - if tiltNode is null, return
 			// - call VanillaTilt.init(tiltNode, vanillaTiltOptions)
 			// - return a cleanup function that will be called when element is removed
